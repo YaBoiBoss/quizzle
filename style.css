@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    color: #293264;
+}
+
+.top-blob{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+.bottom-blob{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.start-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start-screen > h1{
+    font-size: 35px;
+    line-height: 37px;
+    margin: 0px;
+}
+
+.start-screen > p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.start--button{
+    background: #4D5B9E;
+    border-radius: 15px;
+    width: 193px;
+    height: 52px;
+    border: none;
+    color: #F5F7FB;
+}
+
+main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    min-height: 70px;
+    width: 600px;
+    margin-block: 7px;
+    
+}
+
+.card > h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: start;
+    margin: 0px;
+}
+
+.card > hr{
+    margin-top: 5px;
+}
+
+.answers  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.answer{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    border:#4D5B9E solid 2px;;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    margin-right: 8px;
+    height: 25px;
+    width: auto;
+    padding-top: 4px;
+    cursor: pointer;
+    margin-block:7px;
+}
+
+.selected{
+    background: #D6DBF5;
+}
+
+.submit{
+    background: #4D5B9E;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: #F5F7FB;
+}
+
+.red{
+    background: #F8BCBC;
+}
+
+.green{
+    background: #94D7A2;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+}
+
+.result > p{
+    margin-right: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+}
